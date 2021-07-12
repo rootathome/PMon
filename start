@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# oled Startscript
+echo "oled Startscript";
+cd /home/pi/lib_oled96
+python3 stats.py &
+
